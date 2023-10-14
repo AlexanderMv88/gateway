@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: svc1_route
+        uri: http://localhost:8081/**
+        predicates:
+          - Path=/svc1/**
+        filters:
+          - StripPrefix=1
