@@ -1,6 +1,6 @@
 Шлюз
 
-Работает в паре с 
+Работает в паре с https://github.com/AlexanderMv88/service1
 
 Для проксирования запроса /svc1/** на http://localhost:8081/**
 
