@@ -8,3 +8,7 @@ spring:
           - Path=/svc1/**
         filters:
           - StripPrefix=1
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+    reactor.netty.http.client: DEBUG
