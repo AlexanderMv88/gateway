@@ -8,6 +8,13 @@ spring:
           - Path=/svc1/**
         filters:
           - StripPrefix=1
+      default-filters:
+        - name: MyLog
+          args:
+            msg: MESSAGE!
+            preLogger: true
+            postLogger: true
+
 logging:
   level:
     org.springframework.cloud.gateway: DEBUG
