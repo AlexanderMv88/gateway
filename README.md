@@ -1,4 +1,5 @@
 Шлюз
+Сделан по мануалу: https://www.baeldung.com/spring-cloud-custom-gateway-filters
 
 Работает в паре с https://github.com/AlexanderMv88/service1
 
