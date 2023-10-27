@@ -24,5 +24,7 @@ curl http://localhost:8080/svc1/api/v1/status
 ```
 будет перенаправлен на http://localhost:8081/api/v1/status
 
+Смотри коммиты, по ним понятнее какой функционал как реализован.
+
 
 
